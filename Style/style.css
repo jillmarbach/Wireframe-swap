@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* https://coolors.co/91914d-5b2333-ffffff-50514f-c3c39d */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: initial;
+	padding: initial;
+	font-family: 'Spartan', sans-serif;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section,
+summary {
+  display: block;
+}
+
+img {
+	display: block;
+}
+
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background: #91914D;
+	font-weight: 700;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: .8em;
+}
+
+.nav a:hover {
+	color: #5B2333;
+}
+
+.nav p:nth-child(n+2) {
+	padding: 10px 20px;
+}
+
+.logo {
+	font-size: 1.1em;
+	padding: 10px 90px 10px 5px;
+}
+
+.header {
+	background-image: url(header-image.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 13em 7em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.2em;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	text-decoration: none;
+	font-family:  'Spartan', sans-serif;
+	font-size: .8em;
+	padding: 17px;
+	background-color: #5B2333;
+	color: #FFFFFF;
+	border-radius: 8px;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(auto, 210px));
+	justify-items: center;
+	justify-content: center;
+	margin: auto;
+	padding: 2em;
+	grid-gap: 1.5em;
+}
+
+section img {
+	width: 148px;
+}
+
+.image img {
+	width: 100%;
+}
+
+.subhead1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.brands {
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.image {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.subhead2 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.main .artisanal, .main .ingredients, .main .people  {
+	background: #91914D;
+	width: 100%;
+	padding: 1em;
+	font-weight: 700;
+}
+
+.artisanal img, .ingredients img, .people img {
+	margin: auto;
+}
+
+.main p {
+	margin: 16px 0 0 0;
+	font-size: 1.2em;
+}
+
+.brands {
+	margin: 0;
+	padding: 1.8em 2em;
+	background: #5B2333;
+	color: white;
+	font-size: .75em;
+}
+
+.brands p {
+	margin: 0;
+}
+
+.rigatoni, .linguine, .cavatelli {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	background: #91914D;
+	padding: 30px 65px 75px 30px;
+}
+
+.footer > p:first-child {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.footer > p:nth-child(2) {
+	font-size: .8em;
+}
+
+form {
+	padding: 10px;
+	border: none;
+}
+
+input {
+	font-family:  'Spartan', sans-serif;
+	font-size: .8em;
+	padding: 10px;
+	width: 200px;
+	margin: 10px 10px 10px 0;
+}
+
+input:nth-child(2) {
+	margin: 10px 0;
+}
+
+div+input {
+	width: 280px;
+}
+
+.signup {
+	text-decoration: none;
+	font-family:  'Spartan', sans-serif;
+	font-size: .8em;
+	font-weight: 700;
+	padding: 12px 30px;
+	background-color: #5B2333;
+	color: #FFFFFF;
+	border-radius: 8px;
+	border: none;
+}
+
+hr {
+	border: 2px solid #C3C39D;
+}
+
+.social-media {
+	display: flex;
+	justify-content: flex-end;
+	padding: 40px 20px 0px 0;
+}
+
+.social-media img{
+	width: 100px;
+	padding: 20px;
+}
